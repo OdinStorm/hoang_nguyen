@@ -1,0 +1,33 @@
+.header-section{
+    background-color: #cd113b;
+}
+
+.header-company-name{
+    font-family: 'Lato' sans-serif;
+    color: #ffa900;
+    font-size: 4rem;
+}
+
+.header-maritime-services{
+    font-size: 2.5rem;
+}
+.smooth-sailing{
+    line-height: 2;
+}
+
+.logo-container{
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 411px;
+    height: 355px;
+    margin: auto;
+    padding: 30px;
+}
+
+ul.no-bullet-point{
+    list-style-position: inside;
+}
+
+.content-summary{
+    color: #cd113b;
+}
