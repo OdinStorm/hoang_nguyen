@@ -1,3 +1,16 @@
+.image-with-border{
+    border-radius: 5%;
+    border: 5px solid #cd113b ;
+}
+
+.list-in-a-box{
+    border: 5px solid #52006a;
+    border-radius: 5%;
+    padding: 5px 10px 2px;
+    background-color: #ffa900;
+    height: 332px;
+    width: 410px;
+}
 .header-section{
     background-color: #cd113b;
 }
@@ -28,7 +41,7 @@ ul.no-bullet-point{
     list-style-position: inside;
     position: absolute;
     top: 18%;
-    right: 45%;
+    right: 15%;
     font-size: larger;
     text-align: left;
 }
@@ -42,18 +55,18 @@ ul.no-bullet-point{
 .summary-text-bullet, .summary-text{
     z-index: 3;
     text-shadow: #ffa900 2px 3px 16px;
+    position: relative;
+}
+
+.summary-text-bullet{
+    opacity: 0.75;
 }
 
 .summary-text{
-    position: relative;
     top: 150px;
     left: 46px;
     line-height: 1.7;
     font-size: large;
-}
-
-.summary-text-bullet{
-    position: relative;
 }
 
 .summary-pic{
@@ -63,8 +76,14 @@ ul.no-bullet-point{
 }
 
 .page-divider{
-    border-top: 10px whitesmoke dotted;
+    border-top: 10px #ff7600 dotted;
+    background-color: white;
     opacity: 0.4;
-    width: 40%;
+    width: 33%;
     margin: 5px auto 20px;
+}
+.workboat-section-list{
+    position: relative;
+    text-shadow: #ffa900 2px 3px 16px;
+    color: whitesmoke;
 }
