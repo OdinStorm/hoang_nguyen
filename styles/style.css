@@ -99,3 +99,8 @@ ul.no-bullet-point{
 .section-title-text .display-2{
     color: #cd113b;
 }
+
+.image-ender{
+    margin: auto;
+    display: block;
+}
