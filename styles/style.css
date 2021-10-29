@@ -1,6 +1,7 @@
 .image-with-border{
     border-radius: 5%;
     border: 5px solid #cd113b ;
+    width: 725px;
 }
 
 .list-in-a-box{
@@ -11,6 +12,12 @@
     height: 332px;
     width: 410px;
 }
+
+.size-box-between-pics{
+    width: 20%;
+    margin: 40px auto;
+}
+
 .header-section{
     background-color: #cd113b;
 }
@@ -58,8 +65,9 @@ ul.no-bullet-point{
     position: relative;
 }
 
-.summary-text-bullet{
-    opacity: 0.75;
+.summary-text-bullet ul{
+    height: 332px;
+    width: 410px;
 }
 
 .summary-text{
@@ -86,4 +94,8 @@ ul.no-bullet-point{
     position: relative;
     text-shadow: #ffa900 2px 3px 16px;
     color: whitesmoke;
+}
+
+.section-title-text .display-2{
+    color: #cd113b;
 }
