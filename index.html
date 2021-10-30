@@ -15,9 +15,9 @@
     <title>Hoang Nguyen Vung Tau</title>
 </head>
 <body>
-    <header class="container-fluid py-5 text-center header-section">
+    <header class="container-fluid py-5 text-center" id="header-section">
         <div class="logo-container">
-            <img src="images/logo_with_white.png" alt="hoang-nguyen-logo" class="logo">
+            <img loading= "lazy" data-src="images/logo_with_white.png" alt="hoang-nguyen-logo" class="logo lozad">
         </div>
         <h2 class="header-maritime-services">Maritime Services</h2>
         <h1 class="header-company-name mt-0">HOANG NGUYEN VUNG TAU</h1>
@@ -38,10 +38,10 @@
                 <li>section</li>
             </ul>
         </div>
-        <img src="images/30_09_2021_02_02.jpg" alt="hoang nguyen summit" class="summary-pic">
+        <img loading= "lazy" data-src="images/30_09_2021_02_02.jpg" alt="hoang nguyen summit" class="summary-pic lozad">
     </div>
     <hr class="page-divider">
-    <section class="work-boat">
+    <section id="work-boat">
         <div class="row">
             <div class="col section-title-text text-center">
                 <p class="display-2">
@@ -54,7 +54,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <img class="image-with-border" src="images/hoang_nguyen_summit_01.jpg" alt="hoang nguyen summit">
+                <img loading= "lazy" class="lozad image-with-border" data-src="images/hoang_nguyen_summit_01.jpg" alt="hoang nguyen summit">
             </div>
             <div class="col workboat-section-list">
                 <ul class="no-bullet-point list-in-a-box">
@@ -78,11 +78,11 @@
                 </ul>
             </div>
             <div class="col">
-                <img src="images/tug-boat-coastal_01.png" class="image-with-border" alt="hoang nguyen coastle">
+                <img loading= "lazy" data-src="images/tug-boat-coastal_01.png" class="lozad image-with-border" alt="hoang nguyen coastle">
             </div>
         </div>
         <hr class="size-box-between-pics">
-        <img src="images/tug-boat_02.png" alt="tug boats" class="image-ender">
+        <img loading= "lazy" data-src="images/tug-boat_02.png" alt="tug boats" class="image-ender lozad">
     </section>
     <hr class="page-divider">
     <section id="mooring-buoy">
@@ -96,7 +96,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <img src="images/hoang_nguyen_mooring_buoy_p3.png" alt="hoang nguyen mooring buoy p3" class="image-with-border">
+                <img loading= "lazy" data-src="images/hoang_nguyen_mooring_buoy_p3.png" alt="hoang nguyen mooring buoy p3" class="image-with-border lozad">
             </div>
             <div class="col workboat-section-list">
                 <ul class="no-bullet-point list-in-a-box">
@@ -120,11 +120,20 @@
                 </ul>
             </div>
             <div class="col">
-                <img src="images/hoang_nguyen_buoy_location.png" alt="hoang nguyen buoy location" class="image-with-border">
+                <img loading= "lazy" data-src="images/hoang_nguyen_buoy_location.png" alt="hoang nguyen buoy location" class="image-with-border lozad">
             </div>
         </div>
         <hr class="size-box-between-pics">
-        <img src="images/mooring_buoy_ender.png" alt="tug boats" class="image-ender">
+        <img loading= "lazy" data-src="images/mooring_buoy_ender.png" alt="tug boats" class="image-ender lozad">
     </section>
+    <hr class="page-divider">
+    <footer id="footer-section"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+    <script type="text/javaScript">
+        const el = document.querySelectorAll('img');
+        const observer = lozad(el);
+        observer.observe()
+    </script>
 </body>
 </html>
