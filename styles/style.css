@@ -80,7 +80,7 @@ ul.no-bullet-point{
 .summary-pic{
     position: absolute;
     opacity: 0.6;
-    top: 0%;
+    top: -1%;
 }
 
 .page-divider{
@@ -103,4 +103,18 @@ ul.no-bullet-point{
 .image-ender{
     margin: auto;
     display: block;
+}
+
+#footer-section{
+    height: 200px;
+    max-width: 100%;
+    background-color: #cd113b;
+    text-align: center;
+    color: azure;
+    padding-top: 10px;
+}
+
+.company-name-footer{
+    line-height: 1;
+    color: #ffa900;
 }
