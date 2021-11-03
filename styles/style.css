@@ -1,3 +1,27 @@
+nav{
+    background-color: #cd113b;
+}
+
+nav a:link{
+    color: #ff7600;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: #ff7600;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ffa900;
+    text-decoration: none;
+}
+
+nav a:active{
+    color: #ffa900;
+    text-decoration: none;
+}
+
 .image-with-border{
     border-radius: 5%;
     border: 5px solid #cd113b ;
@@ -106,7 +130,7 @@ ul.no-bullet-point{
 }
 
 #footer-section{
-    height: 200px;
+    height: 210px;
     max-width: 100%;
     background-color: #cd113b;
     text-align: center;
