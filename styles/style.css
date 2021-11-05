@@ -143,6 +143,10 @@ ul.no-bullet-point{
     color: #ffa900;
 }
 
+@media screen and (max-width: 1248px){
+    
+}
+
 @media screen and (max-width: 1222px){
     .workboat-section-list{
         position: static;
@@ -161,5 +165,20 @@ ul.no-bullet-point{
     .image-with-border{
         margin-top: 9px;
         margin-bottom: 9px;
+    }
+
+    @media screen and (max-width: 910px){
+        .content-summary{
+            position: static;
+        }
+
+        .summary-text{
+            position: static;
+            margin: 10px;
+        }
+
+        .summary-text-bullet .no-bullet-point{
+            position: static;
+        }
     }
 }
