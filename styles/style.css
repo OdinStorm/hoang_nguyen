@@ -81,7 +81,7 @@ ul.no-bullet-point{
 .content-summary{
     color: #cd113b;
     position: relative;
-    height: 854px;
+    min-height: 854px;
 }
 .summary-text-bullet, .summary-text{
     z-index: 3;
