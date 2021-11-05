@@ -59,14 +59,14 @@ nav a:active{
     line-height: 2;
 }
 
-.logo-container{
+/* .logo-container{
     border-radius: 50%;
     background-color: whitesmoke;
     width: 411px;
     height: 355px;
     margin: auto;
     padding: 30px;
-}
+} */
 
 ul.no-bullet-point{
     list-style-position: inside;
@@ -141,4 +141,25 @@ ul.no-bullet-point{
 .company-name-footer{
     line-height: 1;
     color: #ffa900;
+}
+
+@media screen and (max-width: 1222px){
+    .workboat-section-list{
+        position: static;
+    }
+
+    .summary-text-bullet .no-bullet-point{
+        position: absolute;
+    }
+
+    ul.no-bullet-point{
+        position: static;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .image-with-border{
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
 }
