@@ -17,5 +17,8 @@ $(document).ready(function(){
         if(windowsize >= 863){
             $("nav").show();
         }
+        $(window).on("resize orientationchange",function(){
+            location.reload(true);
+        });
     }
 );
