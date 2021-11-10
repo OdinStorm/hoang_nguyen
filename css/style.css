@@ -42,7 +42,7 @@ body {
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
-     background-color: #87850f;
+     background-color:#cd113b;
 }
 
 .main-layout {
@@ -392,8 +392,8 @@ button {
 }
 
 .read_more:hover {
-     background: #87850f;
-     color: #fff;
+     background:#cd113b;
+     color: #ffa900;
      transition: ease-in all 0.5s;
 }
 
@@ -535,7 +535,7 @@ button {
 }
 
 .testimonial_Carousel {
-     background: #4d4f12;
+     background: #ff7600;
      padding: 100px 45px;
 }
 
@@ -604,7 +604,7 @@ button {
 }
 
 .testimonial_Carousel .carousel-indicators li.active {
-     background: #f9c40b;
+     background: #cd113b;
 }
 
 .carousel-control-next-icon,
