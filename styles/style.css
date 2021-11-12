@@ -71,7 +71,7 @@ nav a:active{
 ul.no-bullet-point{
     list-style-position: inside;
     position: absolute;
-    top: 18%;
+    top: 15%;
     right: 15%;
     font-size: larger;
     text-align: left;
